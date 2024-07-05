@@ -37,22 +37,25 @@
   <!-- Masthead-->
   <header class="masthead">
     <div class="container">
-      <div class="masthead-subheading">Welcome to FUZE!</div>
-      <div class="masthead-heading ">
+      <div class="masthead-heading">Welcome to FUZE!</div>
+      <div class="masthead-subheading ">
+
       <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=40&pause=1000&color=212529&width=700&height=100&lines=+AI+Ruleness+OT+SIEM;+Autonomous+ICS+protection;+Copilot+for+OT+SOC" alt="description" />
+
+      <br/>
+      <p>"FUZE automates data <span class="color-primary"> Collection, Normalization, Correlation</span></p>
+      <p>for Industrial OT/ICS environments.</p>
+      <p>Eliminating the need for manual Rules and extensive Human Resources."</p>
+      <br/>
       <br/>
       <a class="btn btn-primary btn-xl text-uppercase" href="#problem">Learn More</a>
       <div class="text-center">
-        <video autoplay muted loop id="bg-video">
-          <source src="./img/bg.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
       </div>
       </div>
     </div>
   </header>
   <!-- Services-->
-  <section class="page-section" id="problem">
+  <section class="page-section bg-light" id="problem">
     <div class="container">
       <div class="text-center">
           <h2 class="section-heading text-uppercase">Problem</h2>
@@ -61,21 +64,21 @@
       <div class="row text-center py-5">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <img class="img-fluid50" src="img/problem/ml.png"/>
+            <img class="img-fluid50" src="img/problem/ml.gif"/>
           </span>
           <h4 class="my-5">Log Dilemma</h4>
           <p class="text-muted">Organizations struggle to understand and utilize their log data effectively.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <img class="img-fluid50" src="img/problem/ai.png"/>
+            <img class="img-fluid50" src="img/problem/ai.gif"/>
           </span>
           <h4 class="my-5">Detection Rules</h4>
           <p class="text-muted">Manual correlation rule creation is time-consuming, confusing, and requires significant effort.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <img class="img-fluid50" src="img/problem/skills.png"/>
+            <img class="img-fluid50" src="img/problem/skills.gif"/>
           </span>
           <h4 class="my-5">Staff Shortage</h4>
           <p class="text-muted">Building a SOC demands a large number of skilled personnel, posing a resource challenge.</p>
@@ -88,27 +91,11 @@
     </div>
   </section>
   <!-- Portfolio Grid-->
-  <section class="page-section bg-light" id="solution">
+  <section class="page-section" id="solution">
     <div class="container">
-      <div class="text-center">
           <h2 class="section-heading text-uppercase">Solution</h2>
           <h3 class="section-subheading text-muted">How FUZE changed the Game</h3>
-      </div>
       <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-4">
-              <!-- Portfolio item 1-->
-              <div class="solution-item">
-                  <a class="solution-link" data-bs-toggle="modal" href="#solutionModal1">
-                      <div class="solution-hover">
-                      </div>
-                      <img class="img-fluid" src="img/solution/1.png"/>
-                  </a>
-                  <div class="solution-caption bg-black">
-                      <div class="solution-caption-heading text-light">Normalization</div>
-                      <div class="solution-caption-subheading text-muted">Automatic & Adaptive</div>
-                  </div>
-              </div>
-          </div>
           <div class="col-lg-4 col-sm-6 mb-4">
               <!-- Portfolio item 3-->
               <div class="solution-item">
@@ -120,6 +107,20 @@
                   <div class="solution-caption bg-black">
                       <div class="solution-caption-heading text-light">Collection</div>
                       <div class="solution-caption-subheading text-muted">Agentless & Passive</div>
+                  </div>
+              </div>
+          </div>        
+          <div class="col-lg-4 col-sm-6 mb-4">
+              <!-- Portfolio item 1-->
+              <div class="solution-item">
+                  <a class="solution-link" data-bs-toggle="modal" href="#solutionModal1">
+                      <div class="solution-hover">
+                      </div>
+                      <img class="img-fluid" src="img/solution/1.png"/>
+                  </a>
+                  <div class="solution-caption bg-black">
+                      <div class="solution-caption-heading text-light">Normalization</div>
+                      <div class="solution-caption-subheading text-muted">Automatic & Adaptive</div>
                   </div>
               </div>
           </div>
@@ -145,7 +146,7 @@
     </div>
   </section>
   <!-- About-->
-  <section class="page-section" id="flow">
+  <section class="page-section bg-light" id="flow">
     <div class="container">
       <div class="text-center">
           <h2 class="section-heading text-uppercase">Data Flow</h2>
@@ -200,7 +201,7 @@
     </div>
   </section>
   <!-- Team-->
-  <section class="page-section bg-light" id="about">
+  <section class="page-section bg-white" id="about">
     <div class="container">
       <div class="text-center">
         <h2 class="section-heading text-uppercase">About</h2>
@@ -226,9 +227,9 @@
         <div class="col-lg-8">
           <p class="large text-muted">FUZE represents the culmination of over a decade of expertise in OT cybersecurity. With extensive flow and knowledge in the field, our team has developed a robust and specialized system tailored specifically for OT environments.
           </p>
-          <p class="large text-muted">Evolving from prior SIEM systems, this solution incorporates the best features and improvements identified through rigorous analysis and testing. It has been meticulously designed to address the distinct requirements and complexities of OT security, ensuring comprehensive protection and streamlined operations.
+          <p class="large text-muted">Evolving from prior SIEM systems, this solution incorporates the ML and AI features. It has been meticulously designed to address the distinct requirements and complexities of OT security, ensuring comprehensive protection and streamlined operations.
           </p>
-          <p class="large text-muted">After thorough evaluations of various IT SIEM solutions, we have crafted a platform that effectively eliminates prevalent challenges. Our solution is designed to remove the pains and problems typically associated with IT SIEMs, providing a refined, efficient, and adaptable approach for OT cybersecurity.
+          <p class="large text-muted">FUZE is designed to remove the pains and problems typically associated with OT cybersecurity, providing a refined, efficient, and adaptable approach for OT SIEM.
           </p>
         </div>
       </div>
